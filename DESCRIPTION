@@ -1,0 +1,16 @@
+Package: easyrna
+Title: A easy package for RNA-seq
+Version: 1.1
+Authors@R: 
+    person("Genghua", "Chen", , "565063645@qq.com", role = c("aut", "cre"))
+Description: This package is used to analysis the RNA sequencing data.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    lookup,
+    rvest,
+    xml2
+Depends: 
+    tidyverse
